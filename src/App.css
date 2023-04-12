@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+   background-image: linear-gradient(135deg, #1e90ff 0%, #fddb3a 100%) !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #1A237E;
+}
+
+a {
+  color: #000 !important;
+}
+a:hover {
+   color: #1A237E !important;
+   text-decoration: none !important;
+}
+
+.cityName{
+  float: left !important;
+}
+
+/* .container,.card{
+  background-color: rgba(89, 187, 187, 0.425) !important;
+} */
+
+.card{
+  background-color: rgba(89, 187, 187, 0.425) !important;
+}
+
+
+.btn{
+  color: blue;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

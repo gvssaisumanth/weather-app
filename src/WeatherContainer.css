@@ -1,0 +1,34 @@
+.get-weather-button {
+  background-image: linear-gradient(135deg, #1e90ff 0%, #0a60bf 100%);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.get-weather-button:hover {
+  background-image: linear-gradient(135deg, #0a60bf 0%, #1e90ff 100%);
+  color: white;
+}
+
+.segment-class {
+  background-image: linear-gradient(
+    135deg,
+    #1e90ff 0%,
+    #fddb3a 100%
+  ) !important;
+}
+
+/* WeatherData.module.css */
+.weather-details {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
